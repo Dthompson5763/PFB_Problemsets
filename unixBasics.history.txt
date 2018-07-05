@@ -1,0 +1,113 @@
+  377  man head
+  378  head sequences.nt.fa 
+  379  tail sequences.nt.fa 
+  380  grep '>' sequences.nt.fa | wc -l
+  381  man mc
+  382  man mv
+  383  mv sequences.nt.fa > cancer_genes.fasta
+  384  man mv
+  385  mv sequences.nt.fa -f cancer_genes.fasta
+  386  mv sequences.nt.fa  cancer_genes.fasta
+  387  ls
+  388  curl -O https://raw.githubusercontent.com/srobb1/pfb2017/master/files/cuffdiff.txt
+  389  ls
+  390  head cuffdiff.txt 
+  391  man sort
+  392  sort cuffdiff.txt 'log2(fold_change)' > sorted.cuffdiff.out
+  393  sort cuffdiff.txt 
+  394  man sory
+  395  man sort
+  396  sort -k 10 -g -r cuffdiff.txt > sorted.cuffdiff.out
+  397  sort -k 10 -g -r cuffdiff.txt | head  > sorted.cuffdiff.out 
+  398  head -n 100 cuffdiff.txt > sorted.cuffdiff.out
+  399  cut -f 1 sorted.cuffdiff.out | sort | uniq | head -n 100 > differentially.expressed.genes.txt
+  400  ls
+  401  differentially.expressed.genes.txt
+  402  head differentially.expressed.genes.txt
+  403  cut -f 1 sorted.cuffdiff.out | sort | wc -l 8256 
+  404  nano firstfile.txt
+  405  cd Desktop
+  406  mkdir PFB_problemsets
+  407  cd PFB_Problemsets
+  408  echo "# PFB_Problemsets" >> README.md
+  409  git init
+  410  git add README.md
+  411  git commit -m "first commit"
+  412  git remote add origin https://github.com/Dthompson5763/PFB_Problemsets.git
+  413  git push -u origin master
+  414  git push -u origin master
+  415  git init
+  416  nano git_exercises.txt
+  417  git add git_exercises.txt 
+  418  git commit -m 'added a line of text'
+  419  git push origin master
+  420  git clone https://github.com/srobb1/pfb2017.git
+  421  git pull
+  422  git status
+  423  git status
+  424  git add Unix\ Basics\ Quick\ Review\ and\ Problem\ Set.pdf 
+  425  git commit -m 'adding previous problem set files'
+  426  git push
+  427  ls -al ~/.ssh
+  428  ssh-keygen -t rsa -b 4096 -C "dominique.thompson@bcm.edu"
+  429  ~/.ssh/config
+  430  mkdir files
+  431  ls
+  432  man mv
+  433  pwd..
+  434  pwd
+  435  man pwd
+  436  cd Desktop
+  437  cd../Problemsets
+  438  cd..
+  439  cd../
+  440  cd..
+  441  cd ..
+  442  cd Problemsets
+  443  man mv
+  444  mv cancer_genes.fasta / PFB_Problemsets
+  445  mv Desktop/problemsets/cancer_genes.fasta Desktop/PFB_Problemsets/cancer_genes.fasta
+  446  mv cancer_genes.fasta ../
+  447  Cd Desktop
+  448  cd ..
+  449  ls
+  450  mv cancer_genes.fasta Desktop/PFB_problemsets
+  451  mv cancer_genes.fasta Desktop/PFB_problemsets/
+  452  mv cancer_genes.fasta home/dthompso/ Desktop/PFB_problemsets/
+  453  mv cancer_genes.fasta home/dthompso/Desktop/PFB_problemsets/
+  454  mv cancer_genes.fasta /PFB_problemsets/
+  455  mv cancer_genes.fasta PFB_problemsets/
+  456  cd PFB_problemsets
+  457  ls
+  458  git add files/cancer_enes.fasta
+  459  git add files/cancer_genes.fasta
+  460  git add files/cancer_genes.fasta
+  461  git add files cancer_genes.fasta
+  462  git commit -m 'adding cancer_genes.fasta'
+  463  git push
+  464  nano mysequences.txt
+  465  nano mysequences.txt
+  466  git add mysequences.txt
+  467  git commit -m 'adding mysequences.txt'
+  468  git push
+  469  cd ..
+  470  cd PFB_problemsets
+  471  mkdir fastas
+  472  man cp
+  473  ls
+  474  cp cancer_genes.fasta fastas
+  475  cd fastas
+  476  ls
+  477  cd..
+  478  cd ..
+  479  rm cancer_genes.fasta
+  480  ls
+  481  git add all
+  482  git status
+  483  git add fastas/
+  484  git commit -m 'adding fastas file'
+  485  git push
+  486  history
+  487  echo history
+  488  cat history > unixBasics.history.txt
+  489  history > unixBasics.history.txt 
